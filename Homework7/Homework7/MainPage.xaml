@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Homework7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Homework7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="input" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="52" Width="236" Margin="10,153,0,0"/>
+        <TextBlock x:Name="name" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="身份证号码归属地查询" VerticalAlignment="Top" Height="49" Width="340" FontSize="30"/>
+        <TextBlock x:Name="id" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" Text="身份证号码" VerticalAlignment="Top" Width="128" Height="29" FontSize="20"/>
+        <TextBlock x:Name="place" HorizontalAlignment="Left" Height="45" Margin="10,246,0,0" TextWrapping="Wrap" Text="所属地" VerticalAlignment="Top" Width="128" FontSize="20"/>
+        <TextBlock x:Name="placeresult" HorizontalAlignment="Left" Height="53" Margin="53,291,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" FontSize="20"/>
+        <TextBlock x:Name="birthday" HorizontalAlignment="Left" Margin="10,390,0,0" TextWrapping="Wrap" Text="出生年月" VerticalAlignment="Top" Height="40" Width="128" FontSize="20"/>
+        <TextBlock x:Name="birthdayresult" HorizontalAlignment="Left" Height="48" Margin="53,435,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" FontSize="20"/>
+        <TextBlock x:Name="sex" HorizontalAlignment="Left" Height="41" Margin="10,488,0,0" TextWrapping="Wrap" Text="性别" VerticalAlignment="Top" Width="80" FontSize="20"/>
+        <TextBlock x:Name="sexresult" HorizontalAlignment="Left" Height="40" Margin="53,529,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" FontSize="20"/>
+        <Button x:Name="button" Content="GO" HorizontalAlignment="Left" Height="52" Margin="251,153,0,0" VerticalAlignment="Top" Width="99" Click="Search"/>
+
+    </Grid>
+</Page>
